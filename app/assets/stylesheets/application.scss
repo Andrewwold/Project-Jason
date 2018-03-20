@@ -1,0 +1,72 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 40px;  
+}
+
+.square{
+  width: 500px;
+	height: 140px;
+	background: #52A1FF;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;  
+}
+
+
+.slidecontainer {
+    display: block;
+    margin-left: 30px;  
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 10px;
+    background: white;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 100px;
+    display: block;
+    margin-top: 65px;
+  
+}
+
+.slider:hover {
+    opacity: .9;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    background: white;
+    cursor: pointer;
+    border-radius: 100px;
+    box-shadow: 0px 2px 10px rgba(100, 100, 100,     0.4);
+
+    
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+ .show{
+  font-size: 60px;
+  font-family: 'Roboto Mono', monospace;
+  display: block;
+  color: white;
+  margin-left: 360px;
+  margin-top: -45px;   
+}
